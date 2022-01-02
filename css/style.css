@@ -217,14 +217,22 @@ button:hover {
 /*HERO*/
 
 .hero {
-  background-color: #2f303a;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   height: 600px;
-  width: 1600px;
+  max-width: 1600px;
+  background-image: linear-gradient(
+      rgba(47, 48, 58, 0.4),
+      rgba(47, 48, 58, 0.4)
+    ),
+    url(../images/people-work.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
+
 .hero-box {
   width: 696px;
   height: 120px;
@@ -281,7 +289,6 @@ button:hover {
   margin-right: 0;
 }
 .our-team-list {
-  height: 368px;
   display: flex;
   justify-content: center;
 }
@@ -316,8 +323,8 @@ button:hover {
   display: flex;
   justify-content: center;
   text-align: center;
-  /*width: 1230px;*/
   margin-bottom: 30px;
+  text-transform: uppercase;
 }
 .title {
   text-align: center;
@@ -369,6 +376,20 @@ button:hover {
   font-size: 16px;
   line-height: 1.19;
   color: var(--p-color);
+  margin-bottom: 16px;
+}
+.our-team-social-list {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.our-team-social-link {
+  width: 44px;
+  height: 44px;
+  background-color: #2196f3;
+  display: block;
+  border-radius: 50%;
+  padding-bottom: 30px;
 }
 /* Портфоліо*/
 .line {
@@ -411,6 +432,10 @@ button:hover {
   background: #ffffff;
   border: 1px solid #eeeeee;
   width: 370px;
+}
+.portfolio-galery-item:hover {
+  box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
+    1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
 .portfolio-galery-item:not(:nth-child(3n)) {
