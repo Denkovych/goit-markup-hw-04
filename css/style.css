@@ -247,6 +247,26 @@ button:hover {
   margin: 94px 215px;
   /*margin-bottom: 94px;*/
 }
+.advantages-picture {
+  display: block;
+  display: flex;
+}
+.advantages-picture-item {
+  margin-right: 30px;
+  margin-bottom: 30px;
+  background-color: #f5f4fa;
+  border-radius: 4px;
+}
+.advantages-picture-item:last-child {
+  margin-right: 0;
+}
+.advantages-picture-icon {
+  width: 270px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .advantages-list {
   display: flex;
   height: 101px;
@@ -356,14 +376,15 @@ button:hover {
   margin-left: auto;
   margin-right: auto;
   background-color: rgba(245, 244, 250, 1);
-  padding-top: 94px;
-  padding-bottom: 94px;
+  margin-bottom: 94px;
 }
 .our-team-tit {
   font-size: 36px;
   line-height: 42px;
   text-align: center;
   letter-spacing: 0.03em;
+  padding-top: 94px;
+  padding-bottom: 50px;
 }
 .our-team-title {
   font-weight: 500;
@@ -382,14 +403,63 @@ button:hover {
   display: flex;
   justify-content: center;
   margin-bottom: 30px;
+  padding-right: 30px;
+  padding-left: 32px;
+}
+.our-team-social-item {
+  margin-right: 10px;
+}
+.our-team-social-item:last-child {
+  margin-right: 0;
 }
 .our-team-social-link {
   width: 44px;
   height: 44px;
-  background-color: #2196f3;
   display: block;
   border-radius: 50%;
-  padding-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+}
+.our-team-social-icon {
+  fill: currentColor;
+}
+.our-team-social-link:hover {
+  background-color: #2196f3;
+  color: #ffffff;
+}
+.our-team-social-icon:hover {
+  color: #ffffff;
+}
+
+/*.our-team-social-link:hover .our-team-social-icon {
+  fill: #ffffff; 
+}*/
+.client {
+  padding-bottom: 88px;
+}
+.client-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.client-item {
+  margin-right: 30px;
+  border: 1px solid #afb1b8;
+  border-radius: 4px;
+  width: 170px;
+  height: 92px;
+}
+.client-item:last-child {
+  margin-right: 0;
+}
+.client-item-link {
+  width: 170px;
+  height: 92px;
+  justify-content: center;
+  align-items: center;
+  display: flex;
 }
 /* Портфоліо*/
 .line {
