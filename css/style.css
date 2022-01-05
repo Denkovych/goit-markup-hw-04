@@ -399,11 +399,10 @@ button:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: #ffffff;
 }
-.our-team-social-icon {
+/*.our-team-social-icon {
   fill: currentColor;
-}
+}*/
 .our-team-social-link:hover {
   background-color: #2196f3;
   color: #ffffff;
@@ -439,6 +438,10 @@ button:hover {
   justify-content: center;
   align-items: center;
   display: flex;
+  fill: var(--p-color);
+}
+.client-icon {
+  fill: #212121;
 }
 /* Портфоліо*/
 .line {
@@ -510,8 +513,6 @@ button:hover {
   background-color: var(--foooter-color);
   padding-top: 60px;
   padding-bottom: 60px;
-  width: 1600px;
-  height: 252px;
   margin-left: auto;
   margin-right: auto;
 }
