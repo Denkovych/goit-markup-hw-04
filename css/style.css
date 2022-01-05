@@ -61,11 +61,15 @@ img {
   margin-right: auto;
 }
 
-.link-logo {
-  padding-top: 24px;
-  padding-bottom: 25px;
+.navigation-contacts {
+  display: flex;
+  align-items: center;
 }
-
+.navigation-contacts-icon {
+  margin-right: 10px;
+}
+.navigation-section {
+}
 /*hover and focus, кнопок і ссилок*/
 
 .link:hover,
@@ -167,6 +171,9 @@ button:hover {
 .navigation-page {
   display: flex;
   /*margin-left: 93px;*/
+}
+.navigation-page:last-child {
+  margin-right: 305px;
 }
 .navigation-item {
   margin-right: 50px;
