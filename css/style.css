@@ -401,15 +401,11 @@ button:hover {
   align-items: center;
 }
 .our-team-social-icon {
-  fill: currentColor;
+  fill: #212121;
 }
 
 .our-team-social-link:hover {
   background-color: #2196f3;
-  color: #ffffff;
-}
-.our-team-social-icon:hover {
-  color: #ffffff;
 }
 
 .our-team-social-link:hover .our-team-social-icon {
