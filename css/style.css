@@ -427,8 +427,6 @@ button:hover {
   margin-right: 30px;
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  width: 170px;
-  height: 92px;
 }
 .client-item:last-child {
   margin-right: 0;
@@ -441,9 +439,19 @@ button:hover {
   display: flex;
   fill: var(--p-color);
 }
-.client-icon {
-  fill: #212121;
+.client-item-link:hover {
+  fill: #2196f3;
+  border: 1px solid #2196f3;
+  box-sizing: border-box;
+  border-radius: 4px;
 }
+.client-item-link:hover .client-icon {
+  fill: #2196f3;
+}
+.client-icon {
+  fill: #afb1b8;
+}
+
 /* Портфоліо*/
 .line {
   border-top: 1px solid #ececec;
