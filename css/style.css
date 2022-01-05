@@ -247,8 +247,7 @@ button:hover {
   margin-right: 0;
 }
 .advantages-picture-icon {
-  width: 270px;
-  height: 120px;
+  padding: 25px 100px;
   display: flex;
   justify-content: center;
   align-items: center;
