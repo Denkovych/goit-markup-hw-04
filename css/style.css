@@ -535,6 +535,9 @@ button:hover {
 .aaa {
   display: flex;
 }
+.bbb {
+  margin-right: 70px;
+}
 .footer {
   background-color: var(--foooter-color);
   padding-top: 60px;
