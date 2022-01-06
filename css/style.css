@@ -538,12 +538,18 @@ button:hover {
 .bbb {
   margin-right: 70px;
 }
+.ccc {
+  display: flex;
+}
 .footer {
   background-color: var(--foooter-color);
   padding-top: 60px;
   padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
+}
+.footer-social-list {
+  display: flex;
 }
 
 .adress-footer {
