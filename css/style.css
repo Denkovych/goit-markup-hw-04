@@ -528,27 +528,53 @@ button:hover {
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: #ffffff;
+  margin-bottom: 20px;
 }
 .contact {
   font-style: normal;
 }
-.aaa {
+/*.aaa {
   display: flex;
-}
-.bbb {
+}*/
+.footer-container-left {
   margin-right: 70px;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-.ccc {
-  display: flex;
+.footer-container-right {
+  margin-top: 72px;
+  margin-bottom: 100px;
+}
+.section-footer {
 }
 .footer {
   background-color: var(--foooter-color);
-  padding-top: 60px;
-  padding-bottom: 60px;
   margin-left: auto;
   margin-right: auto;
 }
 .footer-social-list {
+  display: flex;
+}
+.footer-social-item {
+  margin-right: 10px;
+}
+.footer-social-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background-color: rgba(255, 255, 255, 0.1);
+}
+.footer-social-link:hover {
+  background-color: #2196f3;
+}
+.footer-social-icon {
+  fill: #ffffff;
+}
+
+.footer-container {
   display: flex;
 }
 
