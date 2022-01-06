@@ -532,7 +532,9 @@ button:hover {
 .contact {
   font-style: normal;
 }
-
+.aaa {
+  display: flex;
+}
 .footer {
   background-color: var(--foooter-color);
   padding-top: 60px;
