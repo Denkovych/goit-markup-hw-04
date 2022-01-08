@@ -496,6 +496,7 @@ button:hover {
   flex-wrap: wrap;
 }
 .portfolio-galery-item {
+  cursor: pointer;
   background: #ffffff;
   outline: 1px solid #eeeeee;
 }
