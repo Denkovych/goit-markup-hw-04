@@ -223,12 +223,12 @@ button:hover {
 /*HERO*/
 
 .hero {
+  max-width: 1600px;
   padding-top: 200px;
   padding-bottom: 200px;
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 94px;
-
   background-image: linear-gradient(
       rgba(47, 48, 58, 0.4),
       rgba(47, 48, 58, 0.4)
