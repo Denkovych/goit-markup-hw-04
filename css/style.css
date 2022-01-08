@@ -360,9 +360,7 @@ button:hover {
   margin-right: auto;
   margin-bottom: 94px;
 }
-.our-work-box {
-  height: 386px;
-}
+
 /* Наша команда*/
 .our-team {
   margin-left: auto;
@@ -533,9 +531,6 @@ button:hover {
 .contact {
   font-style: normal;
 }
-/*.aaa {
-  display: flex;
-}*/
 .footer-container-left {
   margin-right: 70px;
   margin-top: 60px;
